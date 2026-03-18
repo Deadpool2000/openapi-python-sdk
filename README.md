@@ -8,7 +8,7 @@
 
 [![Build](https://github.com/openapi/openapi-python-sdk/actions/workflows/python.yml/badge.svg)](https://github.com/openapi/openapi-python-sdk/actions/workflows/python.yml)
 [![PyPI Version](https://img.shields.io/pypi/v/openapi-python-sdk)](https://pypi.org/project/openapi-python-sdk/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/openapi-python-sdk)](https://pypi.org/project/openapi-python-sdk/)
+[![Python Versions](https://img.shields.io/badge/python-%3E%3D3.10-blue)](https://pypi.org/project/openapi-python-sdk/)
 [![License](https://img.shields.io/github/license/openapi/openapi-python-sdk)](LICENSE)
 [![Downloads](https://img.shields.io/pypi/dm/openapi-python-sdk)](https://pypi.org/project/openapi-python-sdk/)
 <br>
