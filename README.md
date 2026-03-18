@@ -1,15 +1,15 @@
 <div align="center">
   <a href="https://openapi.com/">
-    <img alt="Openapi SDK for PHP" src=".github/assets/repo-header-a3.png" >
+    <img alt="Openapi SDK for Python" src=".github/assets/repo-header-a3.png" >
   </a>
 
-  <h1>Openapi® client for PHP</h1>
-  <h4>The perfect starting point to integrate <a href="https://openapi.com/">Openapi®</a> within your PHP project</h4>
+  <h1>Openapi® client for Python</h1>
+  <h4>The perfect starting point to integrate <a href="https://openapi.com/">Openapi®</a> within your Python project</h4>
 
-[![Build Status](https://github.com/openapi/openapi-php-sdk/actions/workflows/php.yml/badge.svg)](https://github.com/openapi/openapi-php-sdk/actions/workflows/php.yml)
+[![Build Status](https://github.com/openapi/openapi-python-sdk/actions/workflows/python.yml/badge.svg)](https://github.com/openapi/openapi-python-sdk/actions/workflows/python.yml)
 [![Packagist Version](https://img.shields.io/packagist/v/openapi/openapi-sdk)](https://packagist.org/packages/openapi/openapi-sdk)
-[![PHP Version](https://img.shields.io/packagist/php-v/openapi/openapi-sdk)](https://packagist.org/packages/openapi/openapi-sdk)
-[![License](https://img.shields.io/github/license/openapi/openapi-php-sdk?v=2)](LICENSE)
+[![PyPI Version](https://img.shields.io/packagist/python-v/openapi/openapi-sdk)](https://packagist.org/packages/openapi/openapi-sdk)
+[![License](https://img.shields.io/github/license/openapi/openapi-python-sdk?v=2)](LICENSE)
 [![Downloads](https://img.shields.io/packagist/dt/openapi/openapi-sdk)](https://packagist.org/packages/openapi/openapi-sdk)
 <br>
 [![Linux Foundation Member](https://img.shields.io/badge/Linux%20Foundation-Silver%20Member-003778?logo=linux-foundation&logoColor=white)](https://www.linuxfoundation.org/about/members)
@@ -17,23 +17,23 @@
 
 ## Overview
 
-A minimal and agnostic PHP SDK for Openapi, inspired by a clean client implementation. This SDK provides only the core HTTP primitives needed to interact with any Openapi service.
+A minimal and agnostic Python SDK for Openapi, inspired by a clean client implementation. This SDK provides only the core HTTP primitives needed to interact with any Openapi service.
 
 ## Pre-requisites
 
-Before using the Openapi PHP Client, you will need an account at [Openapi](https://console.openapi.com/) and an API key to the sandbox and/or production environment
+Before using the Openapi Python Client, you will need an account at [Openapi](https://console.openapi.com/) and an API key to the sandbox and/or production environment
 
 ## Features
 
 - **Agnostic Design**: No API-specific classes, works with any OpenAPI service
-- **Minimal Dependencies**: Only requires PHP 8.0+ and cURL
+- **Minimal Dependencies**: Only requires Python 3.8+ and `requests`
 - **OAuth Support**: Built-in OAuth client for token management
 - **HTTP Primitives**: GET, POST, PUT, DELETE, PATCH methods
 - **Clean Interface**: Similar to the Rust SDK design
 
 ## What you can do
 
-With the Openapi PHP Client, you can easily interact with a variety of services in the Openapi Marketplace. For example, you can:
+With the Openapi Python Client, you can easily interact with a variety of services in the Openapi Marketplace. For example, you can:
 
 - 📩 **Send SMS messages** with delivery reports and custom sender IDs
 - 💸 **Process bills and payments** in real time via API
@@ -42,9 +42,6 @@ With the Openapi PHP Client, you can easily interact with a variety of services 
 - ✉️ **Manage certified emails** and legal communications via Italian Legalmail
 
 For a complete list of all available services, check out the [Openapi Marketplace](https://console.openapi.com/) 🌐
-
-
-
 
 # OpenApi IT Python Client 
 
@@ -104,25 +101,6 @@ resp = client.request(
 resp = oauth_client.delete_token(id=token)
 ```
 
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Authors
-
-- [@maiku1008](https://www.github.com/maiku1008)
-- [@openapi-it](https://github.com/openapi-it)
-
 
 
 
@@ -136,7 +114,7 @@ See [docs/contributing.md](docs/contributing.md) for detailed instructions on ho
 
 Meet the project authors:
 
-- L. Paderi ([@lpaderiAltravia](https://www.github.com/lpaderiAltravia))
+- Michael Cuffaro ([@maiku1008](https://www.github.com/maiku1008))
 - Openapi Team ([@openapi-it](https://github.com/openapi-it))
 
 ## Partners
