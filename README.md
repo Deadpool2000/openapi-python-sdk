@@ -46,9 +46,20 @@ For a complete list of all available services, check out the [Openapi Marketplac
 
 ## Installation
 
+The package is available on [PyPI](https://pypi.org/project/openapi-python-sdk/) and supports Python 3.10 and above.
+Install it with pip:
+
 ```bash
 pip install openapi-python-sdk
 ```
+
+If you are using Poetry:
+
+```bash
+poetry add openapi-python-sdk
+```
+
+No additional configuration is needed. The only runtime dependency is [`httpx`](https://www.python-httpx.org/).
 
 ## Usage
 
