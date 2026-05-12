@@ -80,3 +80,9 @@ release: publish
 	@git tag -fa "$(VERSION)" -m "Release $(VERSION)"
 	@git push origin --tags -f
 	@echo "Released $(VERSION) successfully."
+
+github-release:
+	@gh release create "$(VERSION)" \
+		--title "Openapi® Python SDK v$(VERSION)" \
+		--notes-file docs/release.md \
+		--latest
