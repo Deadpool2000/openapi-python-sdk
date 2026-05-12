@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openapi-python-sdk"
-version = "0.2.0"
+version = "0.3.0"
 description = "A minimal Python SDK for the Openapi® API marketplace"
 authors = ["Michael Cuffaro <michael@cuffaro.com>"]
 readme = "docs/readme-pypi.md"
